@@ -22,7 +22,7 @@ As a fun bit, I'm going to make the website water/fluid based (Haha get it cause
 ### Functional Requirements
 * Users should be able to create a new account by providing the necessary information.
 * Users should be able to update their account details, such as contact information or password.
-* (TENTATIVE) Users should be able to like, comment, and add videos towards a playlist
+* Users should be able to like and comment on videos
 * Users should be able to upload videos with relative ease.
 * Users should be able to see videos that were uploaded by other users as well as their own videos.
 * The platform should showcase videos from different users 
@@ -38,3 +38,26 @@ As a fun bit, I'm going to make the website water/fluid based (Haha get it cause
 * The platform should support adaptive bitrate streaming.
 * The website should be able to be loaded fully in 5 seconds. 
 
+## Use Case Diagram
+
+Use Case "Account Registration"
+
+Use Case "Login"
+
+Use Case "Logout"
+
+Use Case "Edit and Delete Profile"
+
+Use Case "Upload Video"
+
+Use Case "Report Video"
+
+Use Case "Delete Video"
+
+Use Case "Search Videos"
+
+Use Case "Like Video"
+
+Use Case "Add Comment"
+
+Use Case "Delete Comment"
