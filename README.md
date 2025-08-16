@@ -40,27 +40,61 @@ As a fun bit, I'm going to make the website water/fluid based (Haha get it cause
 
 ## Use Case Diagram
 
-Use Case "Account Registration"
+Use Case "Account Registration (C)"
+1. Guest clicks on Login
+2. Guest clicks on register account
+3. Guest fills in data
+4. Guest clicks agree to term and conditions
+5. Guest clicks on submit
+6. User gets redirected to profile page
 
 Use Case "Login"
+1. Guest clicks on Login 
+2. Guest fills in username and password
+3. Guest clicks login button
+4. User redirected to home page
 
 Use Case "Logout"
+1. User clicks on profile page
+2. User clicks on logout button
+3. User logged out
 
-Use Case "Edit and Delete Profile"
+Use Case "Edit Profile (U)"
 
-Use Case "Upload Video"
+1. User clicks on profile page
+2. User clicks on edit details
+3. User edits their details except for primary keys
+4. User clicks save
+5. System updates user profile in database
+6. User is shown updated profile page
 
-Use Case "Report Video"
+Use Case "Delete Profile (D)"
 
-Use Case "Delete Video"
+1. User clicks on profile page
+2. User clicks on delete account
+3. System prompts "Are you sure?" message
+4. User clicks yes
 
-Use Case "Search Videos"
+Use Case "Upload Video (C)"
+1. User clicks on Upload button
+2. User selects a video file from device
+3. User fills in title and description
+4. User clicks submit
+5. System uploads video file and generates a thumbnail
+6. System saves video metadata in database
+7. User is redirected to the video’s page
 
-Use Case "Like Video"
+Use Case "Report Video (C)"
 
-Use Case "Add Comment"
+Use Case "Delete Video (D)"
 
-Use Case "Delete Comment"
+Use Case "Search Videos (R)"
+
+Use Case "Like Video (C)"
+
+Use Case "Add Comment (C)"
+
+Use Case "Delete Comment (D)"
 
 ## Database Diagram
 
