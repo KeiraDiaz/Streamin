@@ -61,3 +61,7 @@ Use Case "Like Video"
 Use Case "Add Comment"
 
 Use Case "Delete Comment"
+
+## Database Diagram
+
+![ERD](docs/erd.png)
